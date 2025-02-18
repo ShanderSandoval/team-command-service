@@ -15,6 +15,7 @@ import yps.systems.ai.repository.ITeamRepository;
 
 import java.util.Optional;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/command/teamService")
 public class TeamCommandController {
